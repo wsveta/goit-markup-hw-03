@@ -1,0 +1,229 @@
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.link {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+.link:hover, 
+.link:focus {
+    color: var(--pressed-state);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.logo-first-part {      
+    font-family: 'Raleway', sans-serif;
+    color: var(--primary-brand);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-second-part {
+    font-family: 'Raleway', sans-serif;
+    color: var(--dark);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    color: var(--light);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.menu-nav {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-nav:hover,
+.menu-nav:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.contacts-header {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text);
+    letter-spacing: 0.02em;
+}
+
+.contacts-header:hover,
+.contacts-header:focus {
+    color: var(--pressed-state);
+}
+
+.hero-block {
+    background-color: var(--dark);
+}
+
+.hero-title {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.hero-button {
+    font-family: inherit;
+    color: #FFFFFF;
+    background-color: var(--primary-brand);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 0;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+
+}
+
+.hero-button:focus,
+.hero-button:hover {
+    outline: none;
+    background-color: var(--pressed-state);
+}
+
+.main-subtitle{
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.feature-header {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.feature-description {
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team-block {
+    background-color: var(--light);
+}
+
+.member-card {
+    background: #FFFFFF;
+}
+
+.member {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.member-post {
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.filter {
+    font-family: inherit;
+    color: var(--primary-brand);
+    background-color: var(--light);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid #E7E9FC;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.filter:hover,
+.filter:focus {
+    outline: none;
+    background-color: var(--pressed-state);
+    color: #FFFFFF;
+    border: 0;
+}
+
+.project-name {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.project-description {
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-block {
+    background-color: var(--dark);
+}
+
+.footer-text {
+    color: var(--light);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.normalize {
+    font-style: normal;
+}
