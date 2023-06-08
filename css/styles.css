@@ -164,7 +164,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding: 120px 72px;
+  margin-bottom: 72px;
 }
 
 .feature-header {
@@ -173,6 +173,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .feature-description {
@@ -186,7 +187,13 @@ img {
   height: 732px;
 }
 
+.members {
+  display: flex;
+  gap: 24px;
+}
+
 .member-card {
+  width: calc((100% - 48px) / 3);
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -297,13 +304,17 @@ img {
 }
 
 .principles-block {
-  margin-top: 120px;
+  padding: 120px 0;
 }
 
 .principles {
   display: flex;
   gap: 24px;
   margin: 0 auto;
+}
+
+.principle {
+  width: calc((100% - 72px) / 4);
 }
 
 .actings {
@@ -313,11 +324,6 @@ img {
   margin-bottom: 120px;
 }
 
-.members {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-}
 
 .menu {
   display: flex;
