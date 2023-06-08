@@ -32,6 +32,10 @@ ol {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
   outline: none;
@@ -67,6 +71,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-footer {
@@ -281,6 +286,9 @@ ol {
 }
 
 .container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .principles-block {
@@ -316,7 +324,7 @@ ol {
 
 .navigation {
   display: flex;
-  gap: 76px;
+  align-items: center;
 }
 
 .products {
