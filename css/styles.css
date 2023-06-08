@@ -61,6 +61,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;margin-bottom: 16px;
 }
 
 .logo-second-part {
@@ -90,6 +91,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .menu-nav:hover,
@@ -116,7 +118,7 @@ img {
   background-color: var(--dark);
   height: 600px;
   text-align: center;
-  padding-top: 188px;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -140,13 +142,13 @@ img {
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.04em;
-  border: none
   border-radius: 4px;
+  border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
   display: block;
   min-width: 169px
-  height: 56px
+  height: 56px;
   cursor: pointer;
 }
 
@@ -282,7 +284,7 @@ img {
   gap: 16px;
   background-color: var(--dark);
   height: 312px;
-  padding-left: 156px;
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -290,7 +292,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
+  max-width: 264px;
 }
 
 .normalize {
