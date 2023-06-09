@@ -62,6 +62,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;margin-bottom: 16px;
+  margin-right: 76px;
 }
 
 .logo-second-part {
@@ -72,7 +73,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
 }
 
 .logo-footer {
@@ -187,6 +187,7 @@ img {
 .team-block {
   background-color: var(--light);
   height: 732px;
+  padding: 120px 0;
 }
 
 .members {
@@ -202,6 +203,10 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.about-member {
+  padding: 32px 16px;
+}
+
 .member {
   color: var(--dark);
   font-weight: 500;
@@ -209,6 +214,7 @@ img {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .member-post {
@@ -309,6 +315,7 @@ img {
   padding: 120px 0;
 }
 
+
 .principles {
   display: flex;
   gap: 24px;
@@ -319,13 +326,19 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.actings-block {
+  padding-bottom: 120px;
+}
+
 .actings {
   display: flex;
   gap: 24px;
   justify-content: center;
   margin-bottom: 120px;
 }
-
+ .acting {
+  width: calc((100% - 48px) / 3);
+ }
 
 .menu {
   display: flex;

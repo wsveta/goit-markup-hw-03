@@ -16,8 +16,8 @@
   </head>
   <body>
     <!--Меню-->
-    <header class="menu">
-      <div class="container">
+    <header>
+      <div class="container menu">
         <nav class="navigation">
           <a class="link logo-first-part" href="./index.html"
             >Web<span class="logo-second-part">Studio</span></a
@@ -47,14 +47,14 @@
       </div>
     </header>
     <main>
-      <!--Заголовок герой-->
+      <!--Перша секція-->
       <section class="hero-block">
         <div class="container">
           <h1 class="hero-title">Effective solutions for your business</h1>
           <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
-      <!--Про компанію-->
+      <!--Друга секція (про компанію)-->
       <section class="principles-block">
         <div class="container">
           <h2 class="visually-hidden">Company principles</h2>
@@ -90,10 +90,12 @@
           </ul>
         </div>
       </section>
-      <section class="container">
-        <h2 class="main-subtitle">What are we doing</h2>
+      <!--Третя секція-->
+      <section class="actings-block">
+        <div class="container">
+          <h2 class="main-subtitle">What are we doing</h2>
         <ul class="list actings">
-          <li>
+          <li class="acting">
             <img
               src="./images/rectangle.jpg"
               alt="Statistics"
@@ -113,8 +115,9 @@
             />
           </li>
         </ul>
+        </div>
       </section>
-      <!--Команда-->
+      <!--Четверта секція (команда)-->
       <section class="team-block">
         <div class="container">
           <h2 class="main-subtitle">Our Team</h2>
@@ -126,8 +129,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="member">Mark Guerrero</h3>
-              <p class="member-post">Product Designer</p>
+              <div class="about-member">
+                <h3 class="member">Mark Guerrero</h3>
+                <p class="member-post">Product Designer</p>
+              </div>
             </li>
             <li class="member-card">
               <img
