@@ -79,23 +79,11 @@ img {
 }
 
 .logo-second-part {
-  font-family: "Raleway", sans-serif;
   color: var(--dark);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .logo-footer {
-  font-family: "Raleway", sans-serif;
   color: var(--light);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .menu-nav {
@@ -132,6 +120,7 @@ img {
   height: 600px;
   display: flex;
   align-items: center;
+  padding: 188px 0;
 }
 
 .hero-title {
