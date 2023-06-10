@@ -86,6 +86,10 @@ img {
   color: var(--light);
 }
 
+.header-block {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .menu-nav {
   color: var(--dark);
   font-weight: 500;
@@ -341,7 +345,6 @@ img {
   align-items: center;
   height: 72px;
   justify-content: space-around;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
