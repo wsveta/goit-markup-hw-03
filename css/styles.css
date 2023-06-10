@@ -65,6 +65,19 @@ img {
   margin-right: 76px;
 }
 
+.logo-first-part-footer {
+  font-family: "Raleway", sans-serif;
+  color: var(--primary-brand);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-right: 76px;
+}
+
 .logo-second-part {
   font-family: "Raleway", sans-serif;
   color: var(--dark);
@@ -117,11 +130,12 @@ img {
 .hero-block {
   background-color: var(--dark);
   height: 600px;
-  text-align: center;
-  padding: 188px 0;
+  display: flex;
+  align-items: center;
 }
 
 .hero-title {
+  margin: 0 auto;
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
@@ -134,6 +148,7 @@ img {
 }
 
 .hero-button {
+  margin: 0 auto;
   font-family: inherit;
   color: #ffffff;
   background-color: var(--primary-brand);
@@ -337,7 +352,7 @@ img {
   align-items: center;
   height: 72px;
   justify-content: space-around;
-  border-bottom: 1px solid var(--accent);
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
