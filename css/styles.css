@@ -91,6 +91,7 @@ img {
 }
 
 .menu-nav {
+  display: block;
   color: var(--dark);
   font-weight: 500;
   font-size: 16px;
@@ -303,6 +304,7 @@ img {
 
 .normalize {
   font-style: normal;
+  margin-left: auto ;
 }
 
 .container {
@@ -334,7 +336,6 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-bottom: 120px;
 }
 .acting {
   width: calc((100% - 48px) / 3);
@@ -343,8 +344,6 @@ img {
 .menu {
   display: flex;
   align-items: center;
-  height: 72px;
-  justify-content: space-around;
 }
 
 .navigation {
@@ -358,7 +357,6 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   justify-content: center;
-  padding-bottom: 120px;
 }
 
 .about-product {
